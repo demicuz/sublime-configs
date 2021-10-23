@@ -1,20 +1,34 @@
 // SublimeLinter Settings - User
 {
-	"delay": 1.0,
-	"linters":
+    "delay": 0.5,
+    "linters":
     {
-        "gcc": {
+        "clang": {
             "disable": false,
-            "executable": ["gcc"],
-            // "args": ["-fsyntax-only", "-std=c90"],
-            // "args": ["-Wall", "-Werror", "-Wextra"],
+            // "args": "-fvery-important"
             "I": [
-            	"${file_path}",
+                "${file_path}",
                 "${file_path}/include",
                 "${folder}/include",
                 "/usr/local/include",
             ],
-            "excludes": [],
         },
+        "clang++": {
+            "disabled": false,
+            "args": "-falso-important"
+        }
+        // "gcc": {
+        //     "disable": false,
+        //     "executable": ["gcc"],
+        //     // "args": ["-fsyntax-only", "-std=c90"],
+        //     // "args": ["-Wall", "-Werror", "-Wextra"],
+        //     "I": [
+        //         "${file_path}",
+        //         "${file_path}/include",
+        //         "${folder}/include",
+        //         "/usr/local/include",
+        //     ],
+        //     "excludes": [],
+        // }
     }
 }
