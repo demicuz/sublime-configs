@@ -5,11 +5,17 @@
 	],
 	"installed_packages":
 	[
+		"Alabaster Color Scheme",
 		"AppendSemiColon",
 		"Buildview",
+		"Debugger",
 		"Package Control",
+		"Profile Switcher",
 		"SublimeAStyleFormatter",
 		"SublimeLinter",
+		"SublimeLinter-clang",
 		"SublimeLinter-gcc",
+		"Terminus",
+		"Writer Color Scheme",
 	],
 }

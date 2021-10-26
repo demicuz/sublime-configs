@@ -1,0 +1,13 @@
+{
+	"font_size": 13,
+	"font_face": "JetBrains Mono",
+	"font_options": ["no_liga", "no_clig", "no_calt"],
+	"save_on_focus_lost": true,
+	"ignored_packages":
+	[
+		"SublimeLinter-gcc",
+		"Vintage",
+	],
+	"theme": "Adaptive.sublime-theme",
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+}
