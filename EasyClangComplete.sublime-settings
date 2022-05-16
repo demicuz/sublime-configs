@@ -1,0 +1,21 @@
+{
+  // Pick the clang binary used by the plugin. This is used to determine the
+  // version of the plugin and pick correct libclang bindings. Note that this
+  // should either be a full (local or global) path to the binary or it should
+  // be available in your PATH. You can use all wildcards apart from
+  // $clang_version as it would not be available before we point to the correct
+  // version of the clang binary.
+  "clang_binary" : "clang",
+
+  // Show additional information on hover over function call/variable etc.
+  // This replaces default sublime on hover behaviour
+  "show_type_info": false,
+
+  // Show body of struct/class/typedef declaration.
+  "show_type_body" : true,
+
+  // When an includes trigger is typed (" or <) a quick panel will appear that
+  // will guide the user in picking their includes based on the current
+  // compilation database' include flags.
+  "autocomplete_includes": true
+}

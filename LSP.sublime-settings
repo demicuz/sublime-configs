@@ -1,0 +1,15 @@
+{
+	"show_diagnostics_panel_on_save": 1,
+	"document_highlight_style": "fill",
+	"show_multiline_diagnostics_highlights": false,
+
+	"clients":
+	{
+		"clangd":
+		{
+			"enabled": true,
+			"command": ["clangd", "--header-insertion=never"]
+		}
+	},
+	"diagnostics_additional_delay_auto_complete_ms": 1000,
+}

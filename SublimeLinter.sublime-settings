@@ -9,13 +9,14 @@
             "I": [
                 "${file_path}",
                 "${file_path}/include",
+                "${file_path}/libft",
                 "${folder}/include",
                 "/usr/local/include",
             ],
         },
         "clang++": {
             "disabled": false,
-            "args": "-falso-important"
+            // "args": "-falso-important"
         },
         "gcc": {
             "disable": true,
